@@ -1,0 +1,30 @@
+:root {
+    --color1: #2B173B;
+    --color2: #6E5F86;
+    --color3: #79638D;
+    --color4: #8A7B9A;
+    --color5: #EFEEF0;
+}
+
+#root {
+    content: "Peil Board";
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+
+    font-size: 24px;
+    color: var(--color5);
+    background-color: var(--color1);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

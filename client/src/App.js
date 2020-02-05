@@ -1,8 +1,14 @@
 import React from 'react';
+import { Provider } from 'react-redux';
+
+import Routes from './routes';
+import store  from './config/store';
 
 const App = () => {
     return (
-        <h1>Eta</h1>
+        <Provider store={store}>
+            <Routes />
+        </Provider>
     );
 }
 

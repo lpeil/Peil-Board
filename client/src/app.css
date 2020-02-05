@@ -1,3 +1,11 @@
+:root {
+    --color1: #2B173B;
+    --color2: #6E5F86;
+    --color3: #79638D;
+    --color4: #8A7B9A;
+    --color5: #EFEEF0;
+}
+
 html, body, #root {
     overflow-x: hidden;
     flex: 1;
